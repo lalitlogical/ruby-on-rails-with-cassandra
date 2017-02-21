@@ -15,7 +15,7 @@ brew services start cassandra
 1. Create your Rails project with the '--skip-active-record' switch.
 
 ```
-rails new cassandra_example --skip-active-record
+rails new ruby-on-rails-with-cassandra --skip-active-record
 ```
 
 2. Remove sqlite3 from your Gemfile (if present), add below gems to your Gemfile, and run 'bundle'.
